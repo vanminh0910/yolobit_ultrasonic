@@ -249,7 +249,7 @@ Blockly.Python['ultrasonic_read'] = function(block) {
   }  
 };
 
-Blockly.Blocks['ultrasonic_read'] = {
+Blockly.Blocks['ultrasonic_checkdistance'] = {
   init: function() {
     this.jsonInit(
       {
