@@ -240,13 +240,14 @@ Blockly.Python['ultrasonic_read'] = function(block) {
   var variable_ultrasonic_sensor = Blockly.Python.variableDB_.getName(block.getFieldValue('ultrasonic_sensor'), Blockly.Variables.NAME_TYPE);
   var dropdown_type = block.getFieldValue('TYPE');
   // TODO: Assemble Python into code variable.
+  var code = '';
   if (dropdown_type == 'CM') {
-    var code = variable_ultrasonic_sensor + '.distance_cm()';
-    // TODO: Change ORDER_NONE to the correct strength.
-    return [code, Blockly.Python.ORDER_NONE];
+    code = variable_ultrasonic_sensor + '.distance_cm()';
   } else {
-    var code = variable_ultrasonic_sensor + '.distance_mm()';
-  }  
+    code = variable_ultrasonic_sensor + '.distance_mm()';
+  }
+  // TODO: Change ORDER_NONE to the correct strength.
+  return [code, Blockly.Python.ORDER_NONE];
 };
 
 Blockly.Blocks['ultrasonic_checkdistance'] = {
