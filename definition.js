@@ -7,7 +7,7 @@ Blockly.Blocks['ultrasonic_create'] = {
     this.jsonInit(
       {
         "type": "ultrasonic_create",
-        "message0": "create %1 trigger pin %2 echo pin %3",
+        "message0": Blockly.Msg.ULTRASONIC_CREATE_MESSAGE0,
         "args0": [
           {
             "type": "field_variable",
@@ -228,7 +228,7 @@ Blockly.Blocks['ultrasonic_read'] = {
           }
         ],
         "output": null,
-        "colour": "#ff8f3f",
+        "colour": "#0fbc11",
         "tooltip": Blockly.Msg.ULTRASONIC_READ_TOOLTIP,
         "helpUrl": Blockly.Msg.ULTRASONIC_READ_HELPURL
       }
@@ -286,7 +286,7 @@ Blockly.Blocks['ultrasonic_checkdistance'] = {
           }
         ],
         "output": "Boolean",
-        "colour": "#ff8f3f",
+        "colour": "#0fbc11",
         "tooltip": Blockly.Msg.ULTRASONIC_CHECK_TOOLTIP,
         "helpUrl": Blockly.Msg.ULTRASONIC_CHECK_HELPURL
       }
