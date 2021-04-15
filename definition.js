@@ -7,12 +7,12 @@ Blockly.Blocks['ultrasonic_create'] = {
     this.jsonInit(
       {
         "type": "ultrasonic_create",
-        "message0": Blockly.Msg.ULTRASONIC_CREATE_MESSAGE0,
+        "message0": Blockly.Msg.BLOCK_ULTRASONIC_CREATE_MESSAGE0,
         "args0": [
           {
             "type": "field_variable",
             "name": "ultrasonic_sensor",
-            "variable": Blockly.Msg.ULTRASONIC_CREATE_MESSAGE1
+            "variable": Blockly.Msg.BLOCK_ULTRASONIC_CREATE_MESSAGE1
           },
           {
             "type": "field_dropdown",
@@ -182,8 +182,8 @@ Blockly.Blocks['ultrasonic_create'] = {
         "previousStatement": null,
         "nextStatement": null,
         "colour": "#0fbc11",
-        "tooltip": Blockly.Msg.ULTRASONIC_CREATE_TOOLTIP,
-        "helpUrl": Blockly.Msg.ULTRASONIC_CREATE_HELPURL
+        "tooltip": Blockly.Msg.BLOCK_ULTRASONIC_CREATE_TOOLTIP,
+        "helpUrl": Blockly.Msg.BLOCK_ULTRASONIC_CREATE_HELPURL
       }
     );
   }
@@ -205,12 +205,12 @@ Blockly.Blocks['ultrasonic_read'] = {
     this.jsonInit(
       {
         "type": "ultrasonic_read",
-        "message0": Blockly.Msg.ULTRASONIC_READ_MESSAGE0,
+        "message0": Blockly.Msg.BLOCK_ULTRASONIC_READ_MESSAGE0,
         "args0": [
           {
             "type": "field_variable",
             "name": "ultrasonic_sensor",
-            "variable": Blockly.Msg.ULTRASONIC_CREATE_MESSAGE1
+            "variable": Blockly.Msg.BLOCK_ULTRASONIC_CREATE_MESSAGE1
           },
           {
             "type": "field_dropdown",
@@ -229,8 +229,8 @@ Blockly.Blocks['ultrasonic_read'] = {
         ],
         "output": null,
         "colour": "#0fbc11",
-        "tooltip": Blockly.Msg.ULTRASONIC_READ_TOOLTIP,
-        "helpUrl": Blockly.Msg.ULTRASONIC_READ_HELPURL
+        "tooltip": Blockly.Msg.BLOCK_ULTRASONIC_READ_TOOLTIP,
+        "helpUrl": Blockly.Msg.BLOCK_ULTRASONIC_READ_HELPURL
       }
     );
   }
@@ -255,12 +255,12 @@ Blockly.Blocks['ultrasonic_checkdistance'] = {
     this.jsonInit(
       {
         "type": "ultrasonic_checkdistance",
-        "message0": Blockly.Msg.ULTRASONIC_CHECK_MESSAGE0,
+        "message0": Blockly.Msg.BLOCK_ULTRASONIC_CHECK_MESSAGE0,
         "args0": [
           {
             "type": "field_variable",
             "name": "ultrasonic_sensor",
-            "variable": Blockly.Msg.ULTRASONIC_CREATE_MESSAGE1
+            "variable": Blockly.Msg.BLOCK_ULTRASONIC_CREATE_MESSAGE1
           },
           {
             "type": "input_dummy"
@@ -287,8 +287,8 @@ Blockly.Blocks['ultrasonic_checkdistance'] = {
         ],
         "output": "Boolean",
         "colour": "#0fbc11",
-        "tooltip": Blockly.Msg.ULTRASONIC_CHECK_TOOLTIP,
-        "helpUrl": Blockly.Msg.ULTRASONIC_CHECK_HELPURL
+        "tooltip": Blockly.Msg.BLOCK_ULTRASONIC_CHECK_TOOLTIP,
+        "helpUrl": Blockly.Msg.BLOCK_ULTRASONIC_CHECK_HELPURL
       }
     );
   }
